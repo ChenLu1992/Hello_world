@@ -22,16 +22,43 @@
 #  
 #  
 
-message = "haha hah"
+message = "Hello python"
 
 #每个单词首字母大写
 print(message.title())
+
 #每个字母大写
 print(message.upper())
+
 #每个字母小写
 print(message.lower())
+
 #合并字符串
 print(message.upper() + " nr \r\n " + message.lower())
+
+#input 默认类型字符串
+message = input("Enter your name:")
+print("Your name is" + " " + message)
+
+#input 转换为整形
+age = int(input("Enter yout age:"))
+
+#str 将整数转换成字符串格式
+print("Your age is" + " " + str(age))
+
+#去掉字符串前后的空格
+#    strip() 同时去掉前后两端的空格
+#   lstrip() 只去掉字符串开头的空格
+#   rstrip() 只去掉字符串尾部的空格
+Name = "   Chen   LU   "
+print("Name.strip()  = " + Name.strip())
+print("Name.lstrip() = " + Name.lstrip())
+print("Name.rstrip() = " + Name.rstrip())
+
+
+
+
+
 
 
 
